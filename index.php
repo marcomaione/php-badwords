@@ -8,10 +8,9 @@ echo $stringaOriginale;
 echo '<h2> lunghezza Stringa originale:</h2>';
 echo strlen($stringaOriginale);
 
-$badWorld ="brutti";
-$_GET = "";
+$badWord = $_GET['badWord'];
 
-$stringaModificata = str_replace($badWorld, '***', $stringaOriginale);
+$stringaModificata = str_replace($badWord, '***', $stringaOriginale);
 
 echo '<h1>Stringa modificata:</h1>';
 echo $stringaModificata;

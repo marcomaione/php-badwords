@@ -1,16 +1,16 @@
 <?php
 
-
-
 $stringaOriginale = 'ciao a tutti belli e brutti !';
 
 echo '<h1>Stringa originale:</h1>';
 echo $stringaOriginale;
 
-echo '<h2> lunghezza Stringa modificata:</h2>';
+echo '<h2> lunghezza Stringa originale:</h2>';
 echo strlen($stringaOriginale);
 
-$stringaModificata = str_replace('brutti', '***', $stringaOriginale);
+$badWorld ="brutti";
+
+$stringaModificata = str_replace($badWorld, '***', $stringaOriginale);
 
 echo '<h1>Stringa modificata:</h1>';
 echo $stringaModificata;
